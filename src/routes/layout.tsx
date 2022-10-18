@@ -4,7 +4,9 @@ import Header from '../components/header/header';
 export default component$(() => {
   return (
     <>
-      <main>
+      <main
+        class="max-w-[760px] my-0 mx-auto bg-white rounded-[5px] shadow-[0_0_130px_-50px_var(--qwik-light-purple)] overflow-hidden"
+      >
         <Header />
         <section>
           <Slot />

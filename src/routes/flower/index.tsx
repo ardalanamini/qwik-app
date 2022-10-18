@@ -28,6 +28,7 @@ export default component$(() => {
         onInput$={(ev) => {
           state.number = (ev.target as HTMLInputElement).valueAsNumber;
         }}
+        class="w-full"
       />
       <div
         style={{

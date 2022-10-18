@@ -6,7 +6,7 @@ export default component$(() => {
   return (
     <div>
       <h1>
-        Welcome to Qwik <span class="lightning">⚡️</span>
+        Welcome to Qwik <span class="hue-rotate-180">⚡️</span>
       </h1>
 
       <ul>
@@ -23,7 +23,7 @@ export default component$(() => {
 
       <h2>Commands</h2>
 
-      <table class="commands">
+      <table class="commands m-0 mb-[30px]">
         <tr>
           <td>
             <code>npm run dev</code>
@@ -52,7 +52,7 @@ export default component$(() => {
 
       <h2>Add Integrations</h2>
 
-      <table class="commands">
+      <table class="commands m-0 mb-[30px]">
         <tr>
           <td>
             <code>npm run qwik add cloudflare-pages</code>
@@ -127,7 +127,10 @@ export default component$(() => {
           </a>
         </li>
       </ul>
-      <Link class="mindblow" href="/flower">
+      <Link
+        href="/flower"
+        class="mindblow my-0 mx-auto block bg-qwik-light-purple py-[10px] px-[20px] rounded-[10px] border-0 !text-white no-underline text-xl w-fit border-b-4 border-solid border-b-black cursor-mindblow hover:border-b-0 hover:mb-[4px] hover:translate-y-[4px]"
+      >
         Blow my mind 🤯
       </Link>
     </div>

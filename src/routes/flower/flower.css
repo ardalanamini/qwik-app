@@ -17,10 +17,6 @@
   contain: strict;
 }
 
-input {
-  width: 100%;
-}
-
 .square {
   --size: calc(40px + var(--index) * var(--size-step));
 
